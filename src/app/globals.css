@@ -2,3 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  margin: 20px;
+  font-size: 18px;
+}
+
+span {
+  background-color: #EFF4C3FF;
+  padding: 5px;
+}
