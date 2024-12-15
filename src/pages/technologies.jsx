@@ -1,6 +1,6 @@
 'use client'
-import Table from './table/Table';
-import UxLi from './styles/UxLi';
+import Table from '@/components/table/table';
+import UxLi from '@/components/styles/UxLi';
 import { useState } from 'react';
 import clsx from 'clsx';
 
@@ -143,7 +143,7 @@ export default function Technologies(){
 		  setActvie(id);
 	}
 	return(
-		<div>
+	<div>
 		{
 			technologies.map((item, index) => (
 				<div key={index}>
